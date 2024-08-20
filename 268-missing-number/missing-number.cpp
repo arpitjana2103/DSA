@@ -7,7 +7,7 @@ public:
         while(i < n){
             int currIndex = nums[i];
 
-            while(currIndex < n && nums[currIndex] != currIndex){
+            while(currIndex < n && nums[i] != i){
                 swap(nums[i], nums[currIndex]);
                 currIndex = nums[i];
             }
