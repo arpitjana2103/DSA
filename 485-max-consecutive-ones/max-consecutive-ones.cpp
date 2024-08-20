@@ -9,13 +9,11 @@ public:
         while(fast < n){
             if(nums[fast] == 1) fast++;
             else {
-                count = max(fast-slow, count);
                 fast++;
                 slow = fast;
             }
+            count = max(fast-slow, count);
         }
-
-        count = max(fast-slow, count);
         return count;
     }
 };
