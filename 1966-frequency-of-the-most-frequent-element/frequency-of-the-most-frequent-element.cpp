@@ -4,15 +4,14 @@ public:
 
         sort(nums.begin(), nums.end());
 
-        long l = 0;
-        long r = 0;
-
+        int l = 0;
+        int r = 0;
         long total = 0;
-        long res = 0;
+        int res = 0;
 
         while(r < nums.size()){
             total += nums[r];
-            while((r-l+1)*nums[r] > total+k){
+            while((r-l+1)*static_cast<long>(nums[r]) > total+k){
                 total -= nums[l++];
             }
             res = max(r-l+1, res);
