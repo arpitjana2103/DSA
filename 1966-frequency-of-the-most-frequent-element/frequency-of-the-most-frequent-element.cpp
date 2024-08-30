@@ -4,11 +4,11 @@ public:
 
         sort(nums.begin(), nums.end());
 
-        long long l = 0;
-        long long r = 0;
+        long l = 0;
+        long r = 0;
 
-        long long total = 0;
-        long long res = 0;
+        long total = 0;
+        long res = 0;
 
         while(r < nums.size()){
             total += nums[r];
