@@ -11,7 +11,7 @@ public:
 
         while(r < nums.size()){
             total += nums[r];
-            while(static_cast<long>(r-l+1)*(nums[r]) > total+k){
+            while(static_cast<long>(r-l+1)*nums[r] > total+k){
                 total -= nums[l++];
             }
             res = max(r-l+1, res);
