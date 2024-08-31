@@ -9,16 +9,15 @@ public:
         }
 
         for(int num:nums){
-            int count = 0;
+            int length = 1;
             if(!numsSet.count(num-1)){
-                count++;
                 while(numsSet.count(num+1)){
-                    count += 1;
+                    length++;
                     num++;
                 }
             }
 
-            longestSeq = max(count, longestSeq);
+            longestSeq = max(length, longestSeq);
         }
 
         return longestSeq;
