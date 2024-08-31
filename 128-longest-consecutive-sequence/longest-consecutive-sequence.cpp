@@ -9,14 +9,12 @@ public:
         }
 
         for(int num:nums){
-            int temp;
             int count = 0;
             if(!numsSet.count(num-1)){
-                temp = num;
                 count++;
-                while(numsSet.count(temp+1)){
+                while(numsSet.count(num+1)){
                     count += 1;
-                    temp++;
+                    num++;
                 }
             }
 
