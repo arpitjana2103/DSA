@@ -8,22 +8,10 @@ public:
             for(int j = 0; j<board.size(); j++){
                 char ele = board[i][j];
                 if(ele != '.'){
-                    if(ele == '3'){
-                        cout << i << " " << j << endl;
-                    }
                     // Check if the ele is repeated one
-                    if(row[i].count(ele)) {
-                        cout << "row";
-                        return false;
-                    }
-                    if(col[j].count(ele)) {
-                        cout << "col";
-                        return false;
-                    }
-                    if(box[to_string(i/3)+to_string(j/3)].count(ele)) {
-                        cout << "box";
-                        return false;
-                    }
+                    if(row[i].count(ele)) return false;
+                    if(col[j].count(ele)) return false;
+                    if(box[to_string(i/3)+to_string(j/3)].count(ele)) return false;
                     
                     // Save the ele
                     row[i].insert(ele);
