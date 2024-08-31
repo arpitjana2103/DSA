@@ -8,8 +8,8 @@ public:
             for(int j = 0; j<board.size(); j++){
                 char ele = board[i][j];
                 if(ele != '.'){
-                    string boxKey = to_string(i/3)+to_string(j/3);
-                    
+                    string boxKey = to_string(i/3)+" "+to_string(j/3);
+
                     // Check if the ele is repeated one
                     if(row[i].count(ele)) return false;
                     if(col[j].count(ele)) return false;
