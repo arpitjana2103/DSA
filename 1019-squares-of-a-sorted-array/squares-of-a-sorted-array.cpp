@@ -1,10 +1,12 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> res(n);
+        
         int lo = 0;
-        int hi = nums.size()-1;
-        vector<int> res(nums.size());
-        int ptr = nums.size() - 1;
+        int hi = n-1;
+        int ptr = n-1;
 
 
         while(lo <= hi){
