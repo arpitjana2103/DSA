@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int getMostFreqValue(unordered_map<char, int>& freq){
         int maxVal = 0;
         for(auto& pair:freq){
@@ -7,6 +8,7 @@ public:
         }
         return maxVal;
     }
+
     int characterReplacement(string s, int k) {
         unordered_map<char, int> freq;
         int fst = 0;
