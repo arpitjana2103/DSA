@@ -15,7 +15,7 @@ public:
             }
 
             subStr.insert(s.at(fst));
-            res = max(res, static_cast<int>(subStr.size()));
+            res = max(res, fst-slo+1);
 
             fst++;
         }
