@@ -4,19 +4,47 @@ public:
 
         sort(nums.begin(), nums.end());
 
-        int l = 0;
-        int r = 0;
-        long total = 0;
+        /*
+        // Brute Force
+        int kClone = k;
         int res = 0;
 
-        while(r < nums.size()){
-            total += nums[r];
-            while(static_cast<long>(nums[r])*(r-l+1) > total+k){
-                total -= nums[l++];
+        for(int i = 0; i<nums.size(); i++){
+            int num = nums[i];
+            int count = 0;
+            k = kClone;
+            for(int j = i; j>=0; j--){
+                int temp = num - nums[j];
+                if(temp <= k){
+                    k -= temp;
+                    count++;
+                }else{
+                    break;
+                } 
             }
-            res = max(r-l+1, res);
-            r++;
+            res = max(res, count);
         }
+
+        return res;
+        */
+
+        int s = 0;
+        int f = 0;
+        int res = 0;
+        long int total = 0;
+
+        while(f < nums.size()){
+            total += nums[f];
+
+            while(static_cast<long>(nums[f])*(f-s+1) > total+k){
+                total -= nums[s++];
+            }
+
+            res = max(res, f-s+1);
+
+            f++;
+        }
+
         return res;
     }
 };
