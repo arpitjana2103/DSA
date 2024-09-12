@@ -1,5 +1,9 @@
 class Solution {
 public:
+    long int cast_long(int num){
+        return static_cast<long>(num);
+    }
+
     int maxFrequency(vector<int>& nums, int k) {
 
         sort(nums.begin(), nums.end());
@@ -36,7 +40,7 @@ public:
         while(f < nums.size()){
             total += nums[f];
 
-            while(static_cast<long>(nums[f])*(f-s+1) > total+k){
+            while(cast_long(nums[f])*(f-s+1) > total+k){
                 total -= nums[s++];
             }
 
