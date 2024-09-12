@@ -40,7 +40,7 @@ public:
         while(f < nums.size()){
             total += nums[f];
 
-            while(cast_long(nums[f])*(f-s+1) > total+k){
+            while(long(nums[f])*(f-s+1) > total+k){
                 total -= nums[s++];
             }
 
