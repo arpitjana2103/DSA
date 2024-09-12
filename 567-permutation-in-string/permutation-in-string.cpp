@@ -14,12 +14,11 @@ public:
 
     bool checkInclusion(string s1, string s2) {
         if(s1.size() > s2.size()) return false;
-        
+
         int slo = 0;
         int fst = s1.size()-1;
 
         unordered_map<char, int> s1map, s2map;
-
         for(int i = slo; i<=fst; i++){
             s1map[s1[i]]++;
             s2map[s2[i]]++;
@@ -29,8 +28,8 @@ public:
         fst++;
 
         while(fst < s2.size()){
-            bool temp = match(s1map, s2map);
-            if(temp) return temp;
+            if(match(s1map, s2map)) 
+                return true;
 
             s2map[s2[slo-1]]--;
             s2map[s2[fst]]++;
@@ -42,8 +41,8 @@ public:
             slo++;
         }
 
-        bool temp = match(s1map, s2map);
-        if(temp) return temp;
+        if(match(s1map, s2map)) 
+            return true;
 
         return false;
     }
