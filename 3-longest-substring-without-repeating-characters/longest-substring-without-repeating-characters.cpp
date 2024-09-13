@@ -1,23 +1,23 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int slo = 0;
-        int fst = 0;
+        int slow = 0;
+        int fast = 0;
         int res = 0;
 
         unordered_set<char> subStr;
 
-        while(fst < s.size()){
-            char currChar = s.at(fst);
+        while(fast < s.size()){
+            char currChar = s.at(fast);
 
             while(subStr.count(currChar)){
-                subStr.erase(s.at(slo++));
+                subStr.erase(s.at(slow++));
             }
 
-            subStr.insert(s.at(fst));
-            res = max(res, fst-slo+1);
+            res = max(res, fast-slow+1);
+            subStr.insert(s.at(fast));
 
-            fst++;
+            fast++;
         }
 
         return res;
