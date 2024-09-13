@@ -1,52 +1,49 @@
 class Solution {
 public:
-    long int cast_long(int num){
-        return static_cast<long>(num);
-    }
-
-    int maxFrequency(vector<int>& nums, int k) {
-
+    int bruteForce(vector<int>& nums, int k){
         sort(nums.begin(), nums.end());
-
-        /*
-        // Brute Force
-        int kClone = k;
-        int res = 0;
+        int maxCount = 0;
 
         for(int i = 0; i<nums.size(); i++){
-            int num = nums[i];
+            int budget = k;
+            int target = nums[i];
             int count = 0;
-            k = kClone;
             for(int j = i; j>=0; j--){
-                int temp = num - nums[j];
-                if(temp <= k){
-                    k -= temp;
+                int temp = target - nums[j];
+                if(temp <= budget){ 
+                    budget -= temp;
                     count++;
                 }else{
                     break;
-                } 
+                }
             }
-            res = max(res, count);
+            maxCount = max(maxCount, count);
         }
 
-        return res;
-        */
+        return maxCount;
+    }
 
-        int s = 0;
-        int f = 0;
+
+    int maxFrequency(vector<int>& nums, int k) {
+        // BRUTE FORCE
+        // return bruteForce(nums, k);
+        sort(nums.begin(), nums.end());
+
+        int slow = 0;
+        int fast = 0;
         int res = 0;
         long int total = 0;
 
-        while(f < nums.size()){
-            total += nums[f];
+        while(fast < nums.size()){
+            total += nums[fast];
 
-            while(long(nums[f])*(f-s+1) > total+k){
-                total -= nums[s++];
+            while(nums[fast]*long(fast-slow+1) > total+k){
+                total -= nums[slow++];
             }
 
-            res = max(res, f-s+1);
+            res = max(res, fast-slow+1);
 
-            f++;
+            fast++;
         }
 
         return res;
