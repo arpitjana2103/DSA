@@ -13,9 +13,7 @@ public:
                 slow = fast;
             }
             sum += nums[fast];
-            if(sum > maxSum){
-                maxSum = sum;
-            }
+            maxSum = max(maxSum, sum);
             fast++;
         }
 
