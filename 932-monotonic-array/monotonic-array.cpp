@@ -10,8 +10,6 @@ public:
             if(!(nums[i] >= nums[i+1])) isDecreasing = false;
         }
 
-        // cout << isIncreasing << " " << isDecreasing;
-
-        return isIncreasing or isDecreasing;
+        return isIncreasing || isDecreasing;
     }
 };
