@@ -1,48 +1,60 @@
 class Solution {
 public:
-    bool match(unordered_map<char, int> s1map, unordered_map<char, int> s2map){
-
-        for(auto& pair:s1map){
-            char ch = pair.first;
-            int count = pair.second;
-
-            if(s2map[ch] != count) return false;
+    // BRUTE FORCE
+        // Check Every SubStr of S2
+            // If subStr.length == s1.length
+                // Match if subStr contains all chars of s1
+                    // if Yes return True
+        // Return False
+    
+    bool match(unordered_map<char, int>& mp1, unordered_map<char, int>& mp2){
+        if(mp1.size() == mp2.size()){
+            for(auto& pair:mp1){
+                char ch = pair.first;
+                int countAtmp1 = pair.second;
+                int countAtmp2 = mp2[ch];
+                if(countAtmp1 != countAtmp2) return false;
+            }
+            return true;
+        }else{
+            return false;
         }
-
-        return true;
     }
 
     bool checkInclusion(string s1, string s2) {
         if(s1.size() > s2.size()) return false;
+        int slow = 0;
+        int fast = s1.size()-1;
 
-        int slo = 0;
-        int fst = s1.size()-1;
+        unordered_map<char, int> mp1;
+        unordered_map<char, int> subStr;
 
-        unordered_map<char, int> s1map, s2map;
-        for(int i = slo; i<=fst; i++){
-            s1map[s1[i]]++;
-            s2map[s2[i]]++;
+        // Create mp1 from s1
+        for(int i = slow; i<=fast; i++) mp1[s1[i]]++;
+
+        // First SubStr of s2
+        for(int i = slow; i<=fast; i++) subStr[s2[i]]++;
+
+        // Check for First SubStr
+        if(match(mp1, subStr)) return true; 
+
+        // Check for Other SubStrs
+        slow++;
+        fast++;
+
+        while(fast < s2.size()){
+            // Update SubStr
+            subStr[s2[fast]]++;
+            subStr[s2[slow-1]]--;
+
+            if(subStr[s2[slow-1]] == 0) 
+                subStr.erase(s2[slow-1]);
+
+            if(match(mp1, subStr)) return true;
+
+            slow++;
+            fast++;
         }
-
-        slo++;
-        fst++;
-
-        while(fst < s2.size()){
-            if(match(s1map, s2map)) 
-                return true;
-
-            s2map[s2[slo-1]]--;
-            s2map[s2[fst]]++;
-
-            if(s2map[s2[slo-1]] == 0) 
-                s2map.erase(s2[slo-1]);
-
-            fst++;
-            slo++;
-        }
-
-        if(match(s1map, s2map)) 
-            return true;
 
         return false;
     }
