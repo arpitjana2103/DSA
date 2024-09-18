@@ -4,19 +4,12 @@ public:
         stack<pair<char, int>> st;
 
         for(char ch:s){
-            if(st.empty()){
-                st.push(make_pair(ch, 1));
+            if(!st.empty() && st.top().first == ch){
+                int count = st.top().second + 1;
+                st.pop();
+                if(count < k) st.push(make_pair(ch, count));
             }else{
-                if(st.top().first == ch){
-                    int count = st.top().second + 1;
-                    st.pop();
-
-                    if(count < k) {
-                        st.push(make_pair(ch, count));
-                    }
-                }else{
-                    st.push(make_pair(ch, 1));
-                }
+               st.push(make_pair(ch, 1)); 
             }
         }
 
