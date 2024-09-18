@@ -25,7 +25,6 @@ public:
         while(!st.empty()){
             char ch = st.top().first;
             int count = st.top().second;
-            cout << ch << count << endl;
             st.pop();
 
             for(int i = 0; i<count; i++){
