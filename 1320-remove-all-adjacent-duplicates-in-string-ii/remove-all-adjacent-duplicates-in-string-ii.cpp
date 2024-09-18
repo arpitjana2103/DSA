@@ -9,9 +9,9 @@ public:
             }else{
                 if(st.top().first == ch){
                     int count = st.top().second + 1;
-                    if(count >= k) count -= k;
                     st.pop();
-                    if(count > 0) {
+
+                    if(count < k) {
                         st.push(make_pair(ch, count));
                     }
                 }else{
