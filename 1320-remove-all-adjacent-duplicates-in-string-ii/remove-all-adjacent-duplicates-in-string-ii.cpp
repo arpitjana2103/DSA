@@ -5,12 +5,12 @@ public:
 
         for(char ch:s){
             if(!st.empty() && st.back().first == ch){
-                int count = st.back().second + 1;
-                st.pop_back();
-                if(count < k) st.push_back(make_pair(ch, count));
+               st.back().second++;
             }else{
                st.push_back(make_pair(ch, 1)); 
             }
+
+            if(st.back().second == k) st.pop_back();
         }
 
 
