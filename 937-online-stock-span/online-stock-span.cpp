@@ -3,17 +3,17 @@ public:
     stack<pair<int, int>> st;
 
     StockSpanner() {
-        
+        st = stack<pair<int,int>>();
     }
     
     int next(int price) {
-       int res = 1;
+       int span = 1;
        while(!st.empty() && st.top().first <= price){
-        res += st.top().second;
+        span += st.top().second;
         st.pop();
        }
-       st.push({price, res});
-       return res; 
+       st.push({price, span});
+       return span;
     }
 };
 
