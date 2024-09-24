@@ -2,21 +2,26 @@ class Solution {
 public:
     string removeDuplicates(string s) {
         stack<char> st;
+
         for(char ch:s){
-            if(st.empty()) st.push(ch);
-            else {
-                if(st.top() == ch) st.pop();
-                else st.push(ch);
+            if(st.empty()){
+                st.push(ch);
+            }else{
+                if(st.top() == ch){
+                    st.pop();
+                }else{
+                    st.push(ch);
+                }
             }
         }
 
-        string res;
-
+        string res = "";
         while(!st.empty()){
             res += st.top();
             st.pop();
         }
 
+        // REVERSE res
         int left = 0;
         int right = res.size()-1;
 
@@ -27,6 +32,5 @@ public:
         }
 
         return res;
-        
     }
 };
