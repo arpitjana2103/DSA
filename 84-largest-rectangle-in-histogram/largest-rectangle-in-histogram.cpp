@@ -1,6 +1,7 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
+        
         int n = heights.size();
         vector<int> leftSmallIndex(n, 0);
         vector<int> rightSmallIndex(n, 0);
