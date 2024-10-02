@@ -4,32 +4,32 @@ public:
     stack<int> output;
 
     MyQueue() {
-        this -> input = stack<int>();
-        this -> output = stack<int>();
+        this->input = stack<int>();
+        this->output = stack<int>();
     }
     
     void push(int x) {
-       this -> input.push(x);
+       this->input.push(x);
     }
     
     int pop() {
-        int res = this -> peek();
-        this -> output.pop();
+        int res = this->peek();
+        this->output.pop();
         return res;
     }
     
     int peek() {
-        if(this -> output.empty()){
-            while( !this -> input.empty()){
-                this -> output.push(this -> input.top());
-                this -> input.pop();
+        if(this->output.empty()){
+            while(!this->input.empty()){
+                this->output.push(this->input.top());
+                this->input.pop();
             }
         }
-        return this -> output.top();
+        return this->output.top();
     }
     
     bool empty() {
-        return this -> input.empty() and this -> output.empty();
+        return this->input.empty() and this->output.empty();
     }
 };
 
