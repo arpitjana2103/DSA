@@ -1,16 +1,17 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        int n = nums.size();
-        int prev = n-1;
-        int count = 0;
+        int greaterPrevCount = 0;
+        int prev = nums[nums.size()-1];
 
-        for(int i = 0; i<n; i++){
-            if(nums[i] < nums[prev]) count++;
-            prev = i;
+        for(int num:nums){
+            if(prev > num){
+                greaterPrevCount++;
+            }
+            prev = num;
         }
 
-        if(count > 1) return false;
+        if(greaterPrevCount > 1) return false;
         else return true;
     }
 };
