@@ -4,9 +4,8 @@ public:
         int slow = 0;
         int fast = 0;
         int count = 0;
-        int n = nums.size();
 
-        while(fast < n){
+        while(fast < nums.size()){
             if(nums[fast] == 1) fast++;
             else {
                 fast++;
@@ -14,6 +13,7 @@ public:
             }
             count = max(fast-slow, count);
         }
+
         return count;
     }
 };
