@@ -14,7 +14,7 @@ public:
             prev = lastRow[i];
         }
 
-        newRow.push_back(1);
+        newRow.push_back(prev);
         res.push_back(newRow);
        } 
 
