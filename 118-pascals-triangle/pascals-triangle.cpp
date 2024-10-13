@@ -6,14 +6,15 @@ public:
        for(int i = 1; i<numRows; i++){
 
         vector<int> lastRow = res[res.size()-1];
-        lastRow.push_back(0);
+        vector<int> newRow;
+        int prev = 0;
 
-        vector<int> newRow(lastRow.size());
-        newRow[0] = 1;
-
-        for(int i = 1; i<lastRow.size(); i++){
-            newRow[i] = lastRow[i-1]+lastRow[i];
+        for(int i = 0; i<lastRow.size(); i++){
+            newRow.push_back(prev + lastRow[i]);
+            prev = lastRow[i];
         }
+
+        newRow.push_back(1);
         res.push_back(newRow);
        } 
 
