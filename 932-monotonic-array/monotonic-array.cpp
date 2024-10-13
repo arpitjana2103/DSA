@@ -1,15 +1,14 @@
 class Solution {
 public:
     bool isMonotonic(vector<int>& nums) {
-        bool isIncreasing = true;
-        bool isDecreasing = true;
+        bool isInc = true;
+        bool isDec = true;
 
-        // Check for Increasing
-        for(int i = 0; i<nums.size()-1; i++){
-            if(!(nums[i] <= nums[i+1])) isIncreasing = false;
-            if(!(nums[i] >= nums[i+1])) isDecreasing = false;
+        for(int i = 1; i<nums.size(); i++){
+            if(isInc && nums[i] < nums[i-1]) isInc = false;
+            if(isDec && nums[i] > nums[i-1]) isDec = false;
         }
 
-        return isIncreasing || isDecreasing;
+        return isInc || isDec;
     }
 };
