@@ -15,9 +15,10 @@ public:
         ListNode* fast = head;
 
         while(fast != NULL){
-            while(fast != NULL && (*slow).val == (*fast).val) 
+            while(fast != NULL && (*slow).val == (*fast).val)
                 fast = (*fast).next;
             
+
             (*slow).next = fast;
             slow = (*slow).next;
         }
