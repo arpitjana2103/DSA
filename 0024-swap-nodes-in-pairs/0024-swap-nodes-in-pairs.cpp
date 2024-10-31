@@ -17,14 +17,15 @@ public:
         ListNode* prev = NULL;
 
         head = (*head).next;
-        
+
         while(curr != NULL && (*curr).next != NULL){
             ListNode* temp = (*curr).next;
 
             (*curr).next = (*temp).next;
             (*temp).next = curr;
 
-            if(prev != NULL) (*prev).next = temp;
+            if(prev != NULL) 
+                (*prev).next = temp;
 
             prev = curr;
             curr = (*curr).next;
