@@ -9,4 +9,16 @@
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/arpitjana2103/DSA/tree/master/0024-swap-nodes-in-pairs) |
+## Array
+|  |
+| ------- |
+| [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
 <!---LeetCode Topics End-->
