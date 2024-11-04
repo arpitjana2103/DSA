@@ -19,6 +19,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
 ## Sorting
 |  |
@@ -41,4 +42,8 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
