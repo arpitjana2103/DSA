@@ -5,10 +5,12 @@
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/arpitjana2103/DSA/tree/master/0024-swap-nodes-in-pairs) |
+| [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/arpitjana2103/DSA/tree/master/0024-swap-nodes-in-pairs) |
+| [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
 ## Array
 |  |
 | ------- |
@@ -20,6 +22,7 @@
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
+| [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
 ## Sorting
@@ -52,4 +55,8 @@
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
