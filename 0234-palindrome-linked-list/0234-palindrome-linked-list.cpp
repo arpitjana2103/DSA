@@ -22,11 +22,11 @@ public:
         return slow;
     }
 
-    void reverseList(ListNode** headRef){
+    ListNode* reverseList(ListNode* head){
         // (*headRef) = head
         //         1 -> 2 -> 3 -> 4 -> null
         // null <- 1 <- 2 <- 3 <- 4
-        ListNode* curr = *headRef;
+        ListNode* curr = head;
         ListNode* prev = NULL;
         while(curr != NULL){
             ListNode* temp = (*curr).next;
@@ -35,16 +35,27 @@ public:
             curr = temp;
         }
 
-        *headRef = prev;
+        return prev;
     }
+
+        /*
+            1 â 2 â 3 â 2 â 1
+
+                   null
+                    â
+            1 â 2 â 3 â 2 â 1
+
+            |       |       |    
+           fst     mid     lst
+
+        */
 
     bool isPalindrome(ListNode* head) {
         if(head == NULL || (*head).next == NULL) return true;
         ListNode* midNode = middleNode(head);
-        reverseList(&midNode);
 
         ListNode* fst = head;
-        ListNode* lst = midNode;
+        ListNode* lst = reverseList(midNode);
 
         while(lst != NULL){
             if((*fst).val != (*lst).val) 
