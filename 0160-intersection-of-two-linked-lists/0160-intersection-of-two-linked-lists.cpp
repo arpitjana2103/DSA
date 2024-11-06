@@ -34,10 +34,13 @@ public:
             headB = (*headB).next;
         }
 
-        while(headA != NULL && headB != NULL){
-            if(headA == headB) return headA;
-            headA = (*headA).next;
-            headB = (*headB).next;
+        ListNode* currA = headA;
+        ListNode* currB = headB;
+
+        while(currA != NULL && currA != NULL){
+            if(currA == currB) return currA;
+            currA = (*currA).next;
+            currB = (*currB).next;
         }
 
         return NULL;
