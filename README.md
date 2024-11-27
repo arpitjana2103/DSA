@@ -16,6 +16,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/arpitjana2103/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
 ## Two Pointers
@@ -62,4 +63,8 @@
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/arpitjana2103/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
