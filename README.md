@@ -19,6 +19,7 @@
 | [0011-container-with-most-water](https://github.com/arpitjana2103/DSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/arpitjana2103/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0054-spiral-matrix](https://github.com/arpitjana2103/DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/arpitjana2103/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/arpitjana2103/DSA/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/arpitjana2103/DSA/tree/master/0075-sort-colors) |
@@ -99,4 +100,12 @@
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/arpitjana2103/DSA/tree/master/1013-fibonacci-number) |
+## Matrix
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/arpitjana2103/DSA/tree/master/0054-spiral-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/arpitjana2103/DSA/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
