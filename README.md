@@ -55,6 +55,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/arpitjana2103/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
+| [1904-second-largest-digit-in-a-string](https://github.com/arpitjana2103/DSA/tree/master/1904-second-largest-digit-in-a-string) |
 ## Math
 |  |
 | ------- |
@@ -73,6 +74,7 @@
 | ------- |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
+| [1904-second-largest-digit-in-a-string](https://github.com/arpitjana2103/DSA/tree/master/1904-second-largest-digit-in-a-string) |
 ## Greedy
 |  |
 | ------- |
