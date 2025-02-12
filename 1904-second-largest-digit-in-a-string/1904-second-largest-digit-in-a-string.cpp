@@ -7,7 +7,10 @@ public:
         for(int i = 0; i < s.size(); i++){
             if(isdigit(s.at(i))){
                 int digit = static_cast<int>(s.at(i)) - 48;
-                largest = max(largest, digit);
+                if(digit > largest){
+                    secondLargest = largest;
+                    largest = digit;
+                }
                 if(digit < largest && digit > secondLargest){
                     secondLargest = digit;
                 }
