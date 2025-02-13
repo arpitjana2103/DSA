@@ -27,6 +27,7 @@
 | [0134-gas-station](https://github.com/arpitjana2103/DSA/tree/master/0134-gas-station) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitjana2103/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/arpitjana2103/DSA/tree/master/0485-max-consecutive-ones) |
 | [0724-find-pivot-index](https://github.com/arpitjana2103/DSA/tree/master/0724-find-pivot-index) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
@@ -58,6 +59,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/arpitjana2103/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitjana2103/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [1904-second-largest-digit-in-a-string](https://github.com/arpitjana2103/DSA/tree/master/1904-second-largest-digit-in-a-string) |
 ## Math
 |  |
