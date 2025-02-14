@@ -23,6 +23,7 @@
 | [0056-merge-intervals](https://github.com/arpitjana2103/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/arpitjana2103/DSA/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/arpitjana2103/DSA/tree/master/0075-sort-colors) |
+| [0118-pascals-triangle](https://github.com/arpitjana2103/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arpitjana2103/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/arpitjana2103/DSA/tree/master/0134-gas-station) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
@@ -94,6 +95,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/arpitjana2103/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arpitjana2103/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1013-fibonacci-number](https://github.com/arpitjana2103/DSA/tree/master/1013-fibonacci-number) |
 ## Divide and Conquer
