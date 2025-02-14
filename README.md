@@ -31,6 +31,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitjana2103/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/arpitjana2103/DSA/tree/master/0485-max-consecutive-ones) |
 | [0724-find-pivot-index](https://github.com/arpitjana2103/DSA/tree/master/0724-find-pivot-index) |
+| [0932-monotonic-array](https://github.com/arpitjana2103/DSA/tree/master/0932-monotonic-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/arpitjana2103/DSA/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arpitjana2103/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
