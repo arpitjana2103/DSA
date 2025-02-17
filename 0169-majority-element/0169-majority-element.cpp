@@ -1,18 +1,15 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        // Boor Moore Algo
-
-        int res = NULL;
         int count = 0;
+        int res = NULL;
 
         for(int num:nums){
             if(count == 0){
                 res = num;
+            }else if(res == num){
                 count++;
-            }else if(num == res){
-                count++;
-            }else if(num != res){
+            }else{
                 count--;
             }
         }
