@@ -19,6 +19,7 @@
 | [0011-container-with-most-water](https://github.com/arpitjana2103/DSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/arpitjana2103/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
 | [0054-spiral-matrix](https://github.com/arpitjana2103/DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/arpitjana2103/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/arpitjana2103/DSA/tree/master/0057-insert-interval) |
@@ -43,6 +44,7 @@
 | [0011-container-with-most-water](https://github.com/arpitjana2103/DSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/arpitjana2103/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/arpitjana2103/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [0160-intersection-of-two-linked-lists](https://github.com/arpitjana2103/DSA/tree/master/0160-intersection-of-two-linked-lists) |
@@ -94,10 +96,12 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
 | [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
 | [0118-pascals-triangle](https://github.com/arpitjana2103/DSA/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/arpitjana2103/DSA/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arpitjana2103/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -127,4 +131,8 @@
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/arpitjana2103/DSA/tree/master/0238-product-of-array-except-self) |
 | [0724-find-pivot-index](https://github.com/arpitjana2103/DSA/tree/master/0724-find-pivot-index) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
