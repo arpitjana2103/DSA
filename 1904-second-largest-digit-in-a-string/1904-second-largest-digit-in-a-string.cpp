@@ -1,22 +1,21 @@
 class Solution {
 public:
     int secondHighest(string s) {
-        int largest = -1;
-        int secondLargest = -1;
+        int l1 = -1;
+        int l2 = -1;
 
-        for(int i = 0; i < s.size(); i++){
-            if(isdigit(s.at(i))){
-                int digit = static_cast<int>(s.at(i)) - 48;
-                if(digit > largest){
-                    secondLargest = largest;
-                    largest = digit;
-                }
-                if(digit < largest && digit > secondLargest){
-                    secondLargest = digit;
+        for(char ch:s){
+            if(isdigit(ch)) {
+                int digit = ch - 48;
+                if(digit > l1){
+                    l2 = l1;
+                    l1 = digit;
+                }else if(digit < l1 && digit > l2){
+                    l2 = digit;
                 }
             }
         }
 
-        return secondLargest;
+        return l2;
     }
 };
