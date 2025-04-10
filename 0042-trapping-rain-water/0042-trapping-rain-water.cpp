@@ -15,13 +15,13 @@ public:
             rMax[j] = rMaxHeight;
         }
 
-        // for(int num:lMax){
-        //     cout << num << ", ";
-        // }
-        // cout << endl;
-        // for(int num:rMax){
-        //     cout << num << ", ";
-        // }
+        for(int num:lMax){
+            cout << num << ", ";
+        }
+        cout << endl;
+        for(int num:rMax){
+            cout << num << ", ";
+        }
 
         int res = 0;
 
