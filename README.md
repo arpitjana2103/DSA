@@ -29,6 +29,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arpitjana2103/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/arpitjana2103/DSA/tree/master/0134-gas-station) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/arpitjana2103/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/arpitjana2103/DSA/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/arpitjana2103/DSA/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
@@ -59,6 +60,7 @@
 | [0056-merge-intervals](https://github.com/arpitjana2103/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/arpitjana2103/DSA/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/arpitjana2103/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/arpitjana2103/DSA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
@@ -67,6 +69,7 @@
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/arpitjana2103/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/arpitjana2103/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/arpitjana2103/DSA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitjana2103/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
