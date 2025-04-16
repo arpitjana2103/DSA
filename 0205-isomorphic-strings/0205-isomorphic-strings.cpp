@@ -6,20 +6,19 @@ public:
         unordered_map<char, char> ST, TS;
 
         for(int i = 0; i<s.size(); i++){
+           char chs = s[i];
+           char cht = t[i];
 
-            char tCh = t[i];
-            char sCh = s[i];
+           if(!ST.count(chs)) ST[chs] = cht;
+           else if(ST.at(chs) != cht) return false;
+        }
 
-            if(ST.count(sCh)){
-                if(tCh != ST.at(sCh)) return false;
-            }
+        for(int i = 0; i<s.size(); i++){
+            char chs = s[i];
+            char cht = t[i];
 
-            if(TS.count(tCh)){
-                if(sCh != TS.at(tCh)) return false;
-            }
-
-            ST[sCh] = tCh;
-            TS[tCh] = sCh;
+            if(!TS.count(cht)) TS[cht] = chs;
+            else if(TS.at(cht) != chs) return false;
         }
 
         return true;
