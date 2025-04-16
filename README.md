@@ -76,6 +76,7 @@
 | [0217-contains-duplicate](https://github.com/arpitjana2103/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/arpitjana2103/DSA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/arpitjana2103/DSA/tree/master/0290-word-pattern) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitjana2103/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0965-unique-email-addresses](https://github.com/arpitjana2103/DSA/tree/master/0965-unique-email-addresses) |
 | [1297-maximum-number-of-balloons](https://github.com/arpitjana2103/DSA/tree/master/1297-maximum-number-of-balloons) |
@@ -98,6 +99,7 @@
 | ------- |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/arpitjana2103/DSA/tree/master/0205-isomorphic-strings) |
+| [0290-word-pattern](https://github.com/arpitjana2103/DSA/tree/master/0290-word-pattern) |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0965-unique-email-addresses](https://github.com/arpitjana2103/DSA/tree/master/0965-unique-email-addresses) |
 | [1297-maximum-number-of-balloons](https://github.com/arpitjana2103/DSA/tree/master/1297-maximum-number-of-balloons) |
