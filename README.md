@@ -41,6 +41,7 @@
 | [0965-unique-email-addresses](https://github.com/arpitjana2103/DSA/tree/master/0965-unique-email-addresses) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/arpitjana2103/DSA/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1635-number-of-good-pairs](https://github.com/arpitjana2103/DSA/tree/master/1635-number-of-good-pairs) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arpitjana2103/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -82,12 +83,14 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/arpitjana2103/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0965-unique-email-addresses](https://github.com/arpitjana2103/DSA/tree/master/0965-unique-email-addresses) |
 | [1297-maximum-number-of-balloons](https://github.com/arpitjana2103/DSA/tree/master/1297-maximum-number-of-balloons) |
+| [1635-number-of-good-pairs](https://github.com/arpitjana2103/DSA/tree/master/1635-number-of-good-pairs) |
 | [1904-second-largest-digit-in-a-string](https://github.com/arpitjana2103/DSA/tree/master/1904-second-largest-digit-in-a-string) |
 ## Math
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/arpitjana2103/DSA/tree/master/1013-fibonacci-number) |
+| [1635-number-of-good-pairs](https://github.com/arpitjana2103/DSA/tree/master/1635-number-of-good-pairs) |
 ## Binary Search
 |  |
 | ------- |
@@ -136,6 +139,7 @@
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/arpitjana2103/DSA/tree/master/0229-majority-element-ii) |
 | [1297-maximum-number-of-balloons](https://github.com/arpitjana2103/DSA/tree/master/1297-maximum-number-of-balloons) |
+| [1635-number-of-good-pairs](https://github.com/arpitjana2103/DSA/tree/master/1635-number-of-good-pairs) |
 ## Memoization
 |  |
 | ------- |
