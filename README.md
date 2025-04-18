@@ -21,6 +21,7 @@
 | [0015-3sum](https://github.com/arpitjana2103/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/arpitjana2103/DSA/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/arpitjana2103/DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/arpitjana2103/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/arpitjana2103/DSA/tree/master/0057-insert-interval) |
@@ -61,6 +62,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/arpitjana2103/DSA/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/arpitjana2103/DSA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/arpitjana2103/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/arpitjana2103/DSA/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
@@ -73,6 +75,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/arpitjana2103/DSA/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/arpitjana2103/DSA/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/arpitjana2103/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0160-intersection-of-two-linked-lists](https://github.com/arpitjana2103/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
@@ -104,6 +107,7 @@
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/arpitjana2103/DSA/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/arpitjana2103/DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/arpitjana2103/DSA/tree/master/0242-valid-anagram) |
