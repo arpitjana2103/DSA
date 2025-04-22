@@ -56,6 +56,7 @@
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [0160-intersection-of-two-linked-lists](https://github.com/arpitjana2103/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
+| [0392-is-subsequence](https://github.com/arpitjana2103/DSA/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
 ## Sorting
@@ -112,6 +113,7 @@
 | [0205-isomorphic-strings](https://github.com/arpitjana2103/DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/arpitjana2103/DSA/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/arpitjana2103/DSA/tree/master/0290-word-pattern) |
+| [0392-is-subsequence](https://github.com/arpitjana2103/DSA/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0965-unique-email-addresses](https://github.com/arpitjana2103/DSA/tree/master/0965-unique-email-addresses) |
 | [1297-maximum-number-of-balloons](https://github.com/arpitjana2103/DSA/tree/master/1297-maximum-number-of-balloons) |
@@ -134,6 +136,7 @@
 | [0118-pascals-triangle](https://github.com/arpitjana2103/DSA/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/arpitjana2103/DSA/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arpitjana2103/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/arpitjana2103/DSA/tree/master/0392-is-subsequence) |
 | [1013-fibonacci-number](https://github.com/arpitjana2103/DSA/tree/master/1013-fibonacci-number) |
 ## Divide and Conquer
 |  |
