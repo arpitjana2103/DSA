@@ -32,6 +32,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/arpitjana2103/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/arpitjana2103/DSA/tree/master/0134-gas-station) |
 | [0169-majority-element](https://github.com/arpitjana2103/DSA/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/arpitjana2103/DSA/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/arpitjana2103/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/arpitjana2103/DSA/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/arpitjana2103/DSA/tree/master/0238-product-of-array-except-self) |
@@ -55,6 +56,7 @@
 | [0075-sort-colors](https://github.com/arpitjana2103/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [0160-intersection-of-two-linked-lists](https://github.com/arpitjana2103/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/arpitjana2103/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/arpitjana2103/DSA/tree/master/0234-palindrome-linked-list) |
 | [0392-is-subsequence](https://github.com/arpitjana2103/DSA/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
@@ -94,6 +96,7 @@
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/arpitjana2103/DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/arpitjana2103/DSA/tree/master/1013-fibonacci-number) |
 | [1635-number-of-good-pairs](https://github.com/arpitjana2103/DSA/tree/master/1635-number-of-good-pairs) |
