@@ -2,50 +2,53 @@ class Solution {
 public:
     int bruteForce(vector<int>& nums, int k){
         sort(nums.begin(), nums.end());
-        int maxCount = 0;
 
-        for(int i = 0; i<nums.size(); i++){
-            int budget = k;
+        int maxCount = INT_MIN;
+        int i = 0;
+        while(i < nums.size()){
             int target = nums[i];
+            int budget = k;
             int count = 0;
-            for(int j = i; j>=0; j--){
-                int temp = target - nums[j];
-                if(temp <= budget){ 
-                    budget -= temp;
-                    count++;
-                }else{
-                    break;
-                }
+
+            int j = i;
+            while(j >= 0){
+                int cost = target - nums[j];
+                if(cost <= budget) {budget -= cost; count++;}
+                else break;
+                j--;
             }
+
             maxCount = max(maxCount, count);
+            i++;
         }
 
         return maxCount;
     }
 
-
     int maxFrequency(vector<int>& nums, int k) {
-        // BRUTE FORCE
+        // BruteForce Technique
         // return bruteForce(nums, k);
+
         sort(nums.begin(), nums.end());
 
-        int slow = 0;
-        int fast = 0;
-        int res = 0;
+        int budget = k;
         long int total = 0;
+        int fast = 0;
+        int slow = 0;
+        int res = 0;
 
         while(fast < nums.size()){
             total += nums[fast];
 
-            while(nums[fast]*long(fast-slow+1) > total+k){
+            while(nums[fast]*long(fast-slow+1) > total+budget) 
                 total -= nums[slow++];
-            }
-
+            
             res = max(res, fast-slow+1);
 
             fast++;
         }
 
         return res;
+
     }
 };
