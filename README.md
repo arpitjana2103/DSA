@@ -46,6 +46,7 @@
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/arpitjana2103/DSA/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1635-number-of-good-pairs](https://github.com/arpitjana2103/DSA/tree/master/1635-number-of-good-pairs) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arpitjana2103/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/arpitjana2103/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
@@ -77,6 +78,7 @@
 | [0242-valid-anagram](https://github.com/arpitjana2103/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
 | [1019-squares-of-a-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/1019-squares-of-a-sorted-array) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Hash Table
 |  |
 | ------- |
@@ -108,6 +110,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/arpitjana2103/DSA/tree/master/0268-missing-number) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -132,6 +135,7 @@
 | [0011-container-with-most-water](https://github.com/arpitjana2103/DSA/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/arpitjana2103/DSA/tree/master/0134-gas-station) |
 | [0680-valid-palindrome-ii](https://github.com/arpitjana2103/DSA/tree/master/0680-valid-palindrome-ii) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Stack
 |  |
 | ------- |
@@ -175,6 +179,7 @@
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/arpitjana2103/DSA/tree/master/0238-product-of-array-except-self) |
 | [0724-find-pivot-index](https://github.com/arpitjana2103/DSA/tree/master/0724-find-pivot-index) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -187,4 +192,5 @@
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/arpitjana2103/DSA/tree/master/0567-permutation-in-string) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
 <!---LeetCode Topics End-->
