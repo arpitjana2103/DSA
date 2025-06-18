@@ -47,6 +47,7 @@
 | [1635-number-of-good-pairs](https://github.com/arpitjana2103/DSA/tree/master/1635-number-of-good-pairs) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arpitjana2103/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2058-concatenation-of-array](https://github.com/arpitjana2103/DSA/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/arpitjana2103/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
@@ -173,6 +174,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/arpitjana2103/DSA/tree/master/0054-spiral-matrix) |
+| [2058-concatenation-of-array](https://github.com/arpitjana2103/DSA/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/arpitjana2103/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Prefix Sum
 |  |
