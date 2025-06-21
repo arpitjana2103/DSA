@@ -20,6 +20,7 @@
 | [0011-container-with-most-water](https://github.com/arpitjana2103/DSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/arpitjana2103/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/arpitjana2103/DSA/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/arpitjana2103/DSA/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/arpitjana2103/DSA/tree/master/0054-spiral-matrix) |
@@ -55,6 +56,7 @@
 | [0011-container-with-most-water](https://github.com/arpitjana2103/DSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/arpitjana2103/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitjana2103/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/arpitjana2103/DSA/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/arpitjana2103/DSA/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/arpitjana2103/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
