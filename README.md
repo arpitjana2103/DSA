@@ -119,6 +119,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/arpitjana2103/DSA/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/arpitjana2103/DSA/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/arpitjana2103/DSA/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/arpitjana2103/DSA/tree/master/0205-isomorphic-strings) |
@@ -195,4 +196,8 @@
 | ------- |
 | [0567-permutation-in-string](https://github.com/arpitjana2103/DSA/tree/master/0567-permutation-in-string) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/arpitjana2103/DSA/tree/master/1966-frequency-of-the-most-frequent-element) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/arpitjana2103/DSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
