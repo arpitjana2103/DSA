@@ -1,27 +1,16 @@
 class Solution {
 public:
-    void swap(int &a, int &b){
-        int temp = a;
-        a = b;
-        b = temp;
-    }
-
     int removeElement(vector<int>& nums, int val) {
-        int size = nums.size();
-        // Forword Pointer
-        int fPtr = 0;
-        // Backword Pointer
-        int bPtr = size-1;
+        int slow = 0;
+        int fast = 0;
 
-        while(fPtr <= bPtr){
-            if(nums[fPtr] == val){
-                swap(nums[fPtr], nums[bPtr]);
-                bPtr--;
-            }else{
-                fPtr++;
+        while(fast < nums.size()){
+            if(nums[fast] != val){
+                swap(nums[slow], nums[fast]);
+                slow++;
             }
+            fast++;
         }
-
-        return fPtr;
+        return slow;
     }
 };
