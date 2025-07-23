@@ -17,6 +17,7 @@ public:
             int EX = i+1;
             if(nums[i] != EX) return EX;
         }
+        
         return n+1;
     }
 
