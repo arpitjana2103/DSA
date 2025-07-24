@@ -2,31 +2,26 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int n = height.size();
-        vector<int> lMax(n, 0), rMax(n, 0);
-        int lMaxHeight = height[0];
-        int rMaxHeight = height[height.size() - 1];
-        
+        int lmaxHeight = height.at(0);
+        int rmaxHeight = height.at(n-1);
+
+        vector<int> lmax(n, 0), rmax(n, 0);
+
         for(int i = 0; i<n; i++){
-            lMaxHeight = max(lMaxHeight, height[i]);
-            lMax[i] = lMaxHeight;
-
             int j = n-1-i;
-            rMaxHeight = max(rMaxHeight, height[j]);
-            rMax[j] = rMaxHeight;
-        }
+            
+            lmaxHeight = max(lmaxHeight, height[i]);
+            rmaxHeight = max(rmaxHeight, height[j]);
 
-        for(int num:lMax){
-            cout << num << ", ";
-        }
-        cout << endl;
-        for(int num:rMax){
-            cout << num << ", ";
+            lmax[i] = lmaxHeight;
+            rmax[j] = rmaxHeight;
         }
 
         int res = 0;
 
         for(int i = 0; i<n; i++){
-            res += min(lMax[i], rMax[i]) - height[i];
+            int water = min(rmax[i], lmax[i]) - height.at(i);
+            res += water;
         }
 
         return res;
