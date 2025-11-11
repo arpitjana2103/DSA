@@ -1,24 +1,23 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if(s.size() != t.size()) return false;
-        unordered_map<char, int> smp, tmp;
-
-        for(char ch:s){
-            smp[ch]++;
+        if(s.size() != t.size()){
+            return false;
         }
 
-        for(char ch:t){
-            tmp[ch]++;
-        }
+        vector<int> res(26, 0);
 
-        for(auto &pair:smp){
-            int sCount = pair.second;
-            int tCount = tmp[pair.first];
+        for(char ch: s)
+            res[ch - 'a']++;
 
-            if(sCount != tCount) return false;
+        for(char ch: t)
+            res[ch - 'a']--;
+        
+        for(int count: res){
+            if(count > 0) return false;
         }
 
         return true;
+        
     }
 };
