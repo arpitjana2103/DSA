@@ -8,11 +8,8 @@ public:
         for(int i = 0; i<nums.size(); i++){
             mp[sum]++;
             sum += nums[i];
-            count += mp[sum-k]; // -1, 
+            count += mp[sum-k];
         }
-
-        // ITR 1
-
 
         return count;
     }
