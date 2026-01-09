@@ -1,14 +1,14 @@
 class Solution {
 public:
     int differenceOfSums(int n, int m) {
-        int ans = 0;
-        for (int i = 1; i <= n; i++) {
-            if (i % m == 0) {
-                ans -= i;
-            } else {
-                ans += i;
-            }
-        }
-        return ans;
+        // count of numbers divisible by m be x
+        // sum of 1 to n be a
+        const int a = n * (n + 1) / 2;
+
+        const int x = n / m;
+        const int num2 = m * x * (x + 1) / 2;
+        const int num1 = a - num2;
+
+        return num1 - num2;
     }
 };
