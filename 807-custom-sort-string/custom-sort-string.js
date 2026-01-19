@@ -4,17 +4,17 @@
  * @return {string}
  */
 var customSortString = function(order, s) {
-    const orderMp = {};
+    const orderMp = new Map();
 
     for(const ch of order){
-        orderMp[ch] = 0;
+        orderMp.set(ch, 0);
     }
 
     let tempStr = "";
 
     for(const ch of s){
-        if(orderMp.hasOwnProperty(ch)){
-            orderMp[ch]++;
+        if(orderMp.has(ch)){
+            orderMp.set(ch, orderMp.get(ch) + 1)
         }else{
             tempStr += ch;
         }
@@ -23,7 +23,7 @@ var customSortString = function(order, s) {
     let res = "";
 
     for(const ch of order){
-        const count = orderMp[ch];
+        const count = orderMp.get(ch);
         res += ch.repeat(count);
     }
 
